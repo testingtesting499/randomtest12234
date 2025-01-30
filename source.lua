@@ -38,7 +38,7 @@ local  Library
 if assetsupport then
     Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/testingtesting499/randomtest12234/refs/heads/main/Powerful.lua", true))()
 else
-    Library  = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/pslam.lua",true))()
+    Library  = loadstring(game:HttpGet("https://raw.githubusercontent.com/testingtesting499/randomtest12234/refs/heads/main/pslam.lua",true))()
 end
 
 
