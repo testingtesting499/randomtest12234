@@ -10,7 +10,7 @@ if getgenv().executed then
         return  
     end
    getgenv().executed = true
-print("hi")
+print("WNCRY WAS HERE")
 
 local startTime = os.clock()
 
@@ -18,7 +18,7 @@ local startTime = os.clock()
 repeat wait() until game:IsLoaded()
 
 
-loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/a176e78a0053eb3c1a48e58dece4ebb0/raw/b37a50cf92c1c427512ca44e6341315124521522/gistfile1.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/adonis.lua"))()
 
 
 if not LPH_OBFUSCATED then
@@ -31,14 +31,14 @@ local getcustom = string.find(identifyexecutor(), "Delta")
 
 local  Library
 
-local assetsupport = string.find(identifyexecutor(), "Wave") or string.find(identifyexecutor(), "Seliware") or string.find(identifyexecutor(), "AWP") or string.find(identifyexecutor(), "Argon") or string.find(identifyexecutor(), "Swift")
+    local assetsupport = string.find(identifyexecutor(), "Wave") or string.find(identifyexecutor(), "Seliware") or string.find(identifyexecutor(), "AWP") or string.find(identifyexecutor(), "Argon") or string.find(identifyexecutor(), "Swift")
 
 
 
 if assetsupport then
-    Library = loadstring(game:HttpGet("https://pastebin.com/raw/LixdnWjB", true))()
+    Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/Powerful.lua", true))()
 else
-    Library  = loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/35476decfcca390e13120470a8907d26/raw/ec47708b7c28850ea497567972fee63c91f5a893/lol",true))()
+    Library  = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/pslam.lua",true))()
 end
 
 
@@ -257,19 +257,19 @@ local HitEffectModule = {
 }
 
 local sounds = {
-    BlackPencil = "https://github.com/Shatapmatehabibi/Hitsounds/raw/main/bananapencil.mp3.mp3",
-    UWU = "https://github.com/CongoOhioDog/SoundS/blob/main/Uwu.mp3?raw=true",
-    Plooh = "https://github.com/CongoOhioDog/SoundS/blob/main/plooh.mp3?raw=true",
-    Hrntai = "https://github.com/CongoOhioDog/SoundS/blob/main/Hrntai.wav?raw=true",
-    Henta01 = "https://github.com/CongoOhioDog/SoundS/blob/main/henta01.wav?raw=true",
-    Bruh = "https://github.com/CongoOhioDog/SoundS/blob/main/psalms%20bruh%20sample.mp3?raw=true",
-    BoneBreakage = "https://github.com/CongoOhioDog/SoundS/blob/main/psalms%20bone%20breakage.mp3?raw=true",
-    Fein = "https://github.com/CongoOhioDog/SoundS/blob/main/psalms%20highly%20defined%20fein.mp3?raw=true",
-    Unicorn = "https://github.com/CongoOhioDog/SoundS/blob/main/shiny%20unicorn%20for%20dh%20_%20psalms.mp3?raw=true",
-    Kitty = "https://github.com/CongoOhioDog/SoundS/blob/main/Kitty.mp3?raw=true",
-    Bird = "https://github.com/CongoOhioDog/SoundS/blob/main/bird%20chirping%20for%20DH%20_%20psalms%20audio.mp3?raw=true",
-    BirthdayCake = "https://github.com/CongoOhioDog/SoundS/blob/main/Birthday%20cake%20for%20dh%20_%20psalms.mp3?raw=true", 
-    KenCarson =  "https://github.com/CongoOhioDog/SoundS/blob/main/ken_carson_-_jennifer_s_body_offici(2).mp3?raw=true"
+    BlackPencil = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/bananapencil.mp3.mp3?raw=true",
+    UWU = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/Uwu.mp3?raw=true",
+    Plooh = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/plooh.mp3?raw=true",
+    Hrntai = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/Hrntai.wav?raw=true",
+    Henta01 = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/henta01.wav?raw=true",
+    Bruh = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/psalms%20bruh%20sample.mp3?raw=true",
+    BoneBreakage = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/psalms%20bone%20breakage.mp3?raw=true",
+    Fein = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/psalms%20highly%20defined%20fein.mp3?raw=true",
+    Unicorn = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/shiny%20unicorn%20for%20dh%20_%20psalms.mp3?raw=true",
+    Kitty = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/Kitty.mp3?raw=true",
+    Bird = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/bird%20chirping%20for%20DH%20_%20psalms%20audio.mp3?raw=true",
+    BirthdayCake = "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/Birthday%20cake%20for%20dh%20_%20psalms.mp3?raw=true", 
+    KenCarson =  "https://github.com/WNCRY-WIN/WNCRY-CRCK/raw/refs/heads/main/ken_carson_-_jennifer_s_body_offici(2).mp3?raw=true"
 }
 
 for name, url in pairs(sounds) do
@@ -1258,7 +1258,7 @@ end))
 
 local crosshair_position = "Middle"
 
-local Cursor = loadstring(game:HttpGet("https://gist.githubusercontent.com/CongoOhioDog/53ec2f8bdde91bda1d9a17fe5d11e23f/raw/1e5dde366ce1f20ea6621ed230837eb69f441dbc/gistfile1.txt",true))()
+local Cursor = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-CRCK/refs/heads/main/TOOLS/cursor.lua",true))()
 getgenv().crosshair.color = Library.Accent
     getgenv().crosshair.mode = "Middle"
     getgenv().crosshair.sticky = false
@@ -3197,17 +3197,17 @@ local dick = os.date("%Y-%m-%d")
 
 
 
-local role = "Buyer"
-if LocalPlayer.Name == "computerplayer442" then
+local role = "WNCRYUSER"
+if LocalPlayer.Name == "WNCRY" then
   role = "BurritoCat"
-elseif LocalPlayer.Name == "pzoz853" then
+elseif LocalPlayer.Name == "WNCRY" then
   role = "Taco"
 end
 
 local RealColor = "#" .. Library.Accent:ToHex()
 
 local Window = Library:Window({
-    Name = 'Psalms.<font color="'..RealColor..'">Tech</font> | '..guh..' | '..dick..' | <font color="'..RealColor..'">'..role..'</font>',
+    Name = 'WNCRY.<font color="'..RealColor..'">WIN</font> | '..guh..' | '..dick..' | <font color="'..RealColor..'">'..role..'</font>',
     Amount = 4
 })
 
@@ -3216,7 +3216,7 @@ local Window = Library:Window({
 
 
 
-local Watermark = Library:Watermark({Name = string.format("🤑 Psalms.Tech 🤑")})
+local Watermark = Library:Watermark({Name = string.format("WNCRY")})
 
 
 
@@ -5838,7 +5838,7 @@ CFG:Toggle({
     CFG:Textbox({
         Flag = "WatermarkText",
         Name = "Watermark Text",
-        State = "$$ Psalms.Tech $$", 
+        State = "WNCRY", 
         Callback = function(State)
             waterbitch = State
       if not stats.Update then
@@ -5963,3 +5963,9 @@ if game.PlaceId == 9825515356 then
 end
 
 cooked(true) 
+
+
+
+
+
+-- WNCRY was here
